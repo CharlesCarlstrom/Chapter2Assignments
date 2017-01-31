@@ -2,7 +2,7 @@
  * 
  */
 package arithmetricdialog;
-
+import java.util.Scanner;
 /**
  * @author cc113884
  *
