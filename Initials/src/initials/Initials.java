@@ -16,12 +16,16 @@ public class Initials {
 	 */
 	public static void main(String[] args) 
 	{
-	int c1 = c;
-    int e1 = e;
-    int c2 = c;
+	sting C,E,C;
+	int a;
+    int b;
+    int c;
     
-    JOptionPane.showMessageDialog(null, c1 + "." + e1 + "." + c2 + "."); 
+    C = JOptionPane.showInputDialog(null, "what is your first initial?");
+    E = JOptionPane.showInputDialog(null, "what is your second initial?");
+    C = JOptionPane.showInputDialog(null, "what is your third initial?");
 
+    
 	}
 
 }

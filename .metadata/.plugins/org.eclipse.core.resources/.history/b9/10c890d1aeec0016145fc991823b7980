@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package exercisesPage175;
+import javax.swing.JOptionPane;
+/**
+ * @author CC113884
+ *Feb 6th 2017
+ */
+public class FiveB 
+{
+	
+	
+	public static void main(String[] args) 
+	{
+	String v1, percent;
+	double a = 5.0;
+	double b;
+	int c;
+	
+	v1 = JOptionPane.showInputDialog(null, "Please enter a value,  for example 2.0");
+	
+	b = Double.parseDouble(percent);
+	
+	c = v1 * a;
+	
+	JOptionPane.showMessageDialog(null, " " + v1 + " is " + c + " Percent of " + a);
+
+
+	}
+
+}
