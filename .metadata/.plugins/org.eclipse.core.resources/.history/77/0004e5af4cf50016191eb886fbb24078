@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package rockPaperScissors;
+
+import javax.swing.JOptionPane;
+
+/**
+ * @author CC113884
+ *
+ */
+public class RockPaperScissors {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int user;
+		int computer;
+		String msg;
+		String userPick;
+		String computerPick;
+		final int low = 0;
+		final int high = 2;
+		Random r = new Random();
+		computer = r.nextInt(2);
+		
+		user = Integer.parseInt(JOptionPane.showInputDialog(null, "type the following numbers \n0 for rock \n1 for paper and \n2 for scissors"));
+		
+		if(user == 0 && computer == 0)
+		{
+			msg = "Tie";
+		}
+		if(user == 1 && computer == 1)
+		{
+			msg = " "
+		}
+	}
+
+}
