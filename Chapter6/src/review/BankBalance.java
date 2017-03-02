@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package review;
+
+import java.util.Scanner;
+
+/**
+ * @author cc113884
+ *
+ */
+public class BankBalance 
+{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		double balance;
+		int response;
+		int year = 1;
+		final double INT_RATE = 0.03;
+		@SuppressWarnings("resource")
+		Scanner keyboard = new Scanner (System.in);
+		System.out.print("enter initial bank balance > ");
+		balance = keyboard.nextDouble();
+		System.out.println("Do you wnat to see next year's balance?");
+		System.out.print("Enter 1 for Yes ");
+		System.out.print("or Enter 2 for No.");
+		response = keyboard.nextInt();
+		while(response == 1)
+		{
+			balance = balance + balance * INT_RATE;
+			System.out.print("after year " + year + " at " + INT_RATE + " interest rate, balance is $" + balance);
+			++year; //year = year + 1;
+			System.out.println("\n)Do you want to see the balance at the end of another year?");
+			
+		}
+
+		
+	}
+
+}

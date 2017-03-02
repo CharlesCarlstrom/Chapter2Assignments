@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package exercises;
+
+/**
+ * @author CC113884
+ *
+ */
+public class Quizzzzz {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

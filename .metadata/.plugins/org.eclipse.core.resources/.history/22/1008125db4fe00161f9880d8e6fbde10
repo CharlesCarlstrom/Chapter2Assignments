@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package rightTriangle;
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+/**
+ * @author CC113884
+ *
+ */
+public class RTStuff {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		double userEntryA;
+		double userEntryB;
+		double C;
+		Scanner input = new Scanner(System.in);
+		System.out.print("please enter for side A")
+
+	}
+
+}

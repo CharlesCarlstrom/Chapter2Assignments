@@ -1,0 +1,56 @@
+/**
+ * 
+ */
+package rightTriangle;
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+/**
+ * @author CC113884
+ *
+ */
+public class RTStuff {
+
+	/**
+	 * @param args
+	 */
+	private static Scanner input;
+	public static void main(String[] args) 
+	{
+		input = new Scanner(System.in);
+		JOptionPane.showInputDialog(null, "please select a side you'd like to be answered A, B, Or C >>>>");
+		displayAside();
+		displayBside();
+		displayCside();
+	}
+public static void displayAside()
+	{
+	double userEntryC, userEntryB, answerA;
+	JOptionPane.showInputDialog(null, "enter you number for side C");
+	userEntryC = input.nextInt();	
+	JOptionPane.showInputDialog(null,"enter your number for side B");
+	userEntryB = input.nextInt();
+	answerA = Math.sqrt(userEntryC * userEntryC - userEntryB * userEntryB);
+	JOptionPane.showMessageDialog(null, "The answer for side A is" + answerA);
+	}
+public static void displayBside()
+	{
+	double userEntryC, userEntryA, answerB;
+	JOptionPane.showInputDialog(null, "enter you number for side C");
+	userEntryC = input.nextInt();
+	JOptionPane.showInputDialog(null,"enter your number for side A");
+	userEntryA = input.nextInt();
+	answerB = Math.sqrt(userEntryC * userEntryC - userEntryA * userEntryA);
+	JOptionPane.showMessageDialog(null, "The answer for side B is" + answerB);
+	}
+public static void displayCside()
+	{
+	double userEntryA, userEntryB, answerC;
+	JOptionPane.showInputDialog(null, "enter you number for side A");
+	userEntryA = input.nextInt();
+	JOptionPane.showInputDialog(null, "enter your number for side B");
+	userEntryB = input.nextInt();
+	answerC = Math.sqrt(userEntryA * userEntryA - userEntryB * userEntryB);
+	JOptionPane.showMessageDialog(null, "The answer for side C is" + answerC);
+	}
+
+}
